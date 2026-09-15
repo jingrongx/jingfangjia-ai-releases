@@ -1,8 +1,8 @@
 {
-  "version": "1.8.46",
-  "note": "更新系统重做：关于页新增专门的检查更新页面，更新与否完全由你决定（应用内快速更新或下载完整安装包）；修复检查更新无反应与下载链接指向旧版本的问题；修复关于页顶部文字排版；所有检查请求增加超时保护",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.46/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.46/JingFangJia-AI-v1.8.46.apk",
+  "version": "1.8.47",
+  "note": "新增离线音色试听：设置-语音播报中可试听 8 个候选离线音色的真实合成样例（轻量快速的华燕、清晰的凡尘、多说话人 AISHELL3、音质最佳的 Kokoro），听完告诉开发者即可切换接入",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.47/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.47/JingFangJia-AI-v1.8.47.apk",
   "rollout": 100,
   "minNative": "1.8.45"
 }
