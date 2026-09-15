@@ -1,8 +1,8 @@
 {
-  "version": "1.8.48",
-  "note": "离线语音全面升级：默认音色更换为你选定的华燕（Piper），洪亮清晰更亲切；模型从 163MB 减到 63MB，下载更小、合成更快，朗读段间停顿大幅缩短；安装后需在设置中重新下载一次语音模型（旧的会自动清理）",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.48/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.48/JingFangJia-AI-v1.8.48.apk",
+  "version": "1.8.49",
+  "note": "语音朗读节奏优化：华燕音色整体放慢 15%，断句停顿更自然、声调更清晰；标点断句增强（顿号/冒号/分号停顿更明显）",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.49/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.49/JingFangJia-AI-v1.8.49.apk",
   "rollout": 100,
   "minNative": "1.8.48"
 }
