@@ -1,7 +1,8 @@
 {
-  "version": "1.8.33",
-  "note": "全新经络身体图：子午流注 361 穴循行图、五行生克轮盘、证型复盘（AI 经络定位）；AI 模型升级 DeepSeek-V4.1-Flash",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.33/dist.zip",
-  "apkUrl": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.33/JingFangJia-AI-v1.8.33.apk",
-  "rollout": 100
+  "version": "1.8.45",
+  "note": "朗读支持后台播放：新增媒体通知（进度+暂停/停止），切后台/锁屏朗读不再中断，通知栏可直接控制播放；App 端语音引擎固定为离线大模型（设置中不再提供在线选项）",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.45/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.45/JingFangJia-AI-v1.8.45.apk",
+  "rollout": 100,
+  "minNative": "1.8.45"
 }

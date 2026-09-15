@@ -1,0 +1,23 @@
+{
+  "configVersion": 1,
+  "update": {
+    "_comment": "本文件为 App 远程配置，放在 jingfangjia-ai-releases 仓库根目录。修改此文件可即时生效，无需发版。",
+    "versionFiles": [
+      { "type": "gitee_api", "url": "https://gitee.com/api/v5/repos/xujingrong/jingfangjia-ai-releases/contents/version.json" },
+      { "type": "gitee_raw", "url": "https://gitee.com/xujingrong/jingfangjia-ai-releases/raw/master/version.json" },
+      { "type": "github_raw", "url": "https://raw.githubusercontent.com/jingrongx/jingfangjia-ai-releases/main/version.json" }
+    ],
+    "canaryVersionFiles": [
+      { "type": "gitee_api", "url": "https://gitee.com/api/v5/repos/xujingrong/jingfangjia-ai-releases/contents/version-canary.json" },
+      { "type": "gitee_raw", "url": "https://gitee.com/xujingrong/jingfangjia-ai-releases/raw/master/version-canary.json" },
+      { "type": "github_raw", "url": "https://raw.githubusercontent.com/jingrongx/jingfangjia-ai-releases/main/version-canary.json" }
+    ],
+        "apkUrlTemplate": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v{version}/JingFangJia-AI-v{version}.apk",
+        "canaryApkUrlTemplate": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v{version}/JingFangJia-AI-canary-v{version}.apk",
+    "mirrorPrefix": "https://ghproxy.net/",
+    "releasesPage": {
+      "cn": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases",
+      "global": "https://github.com/jingrongx/jingfangjia-ai-releases/releases"
+    }
+  }
+}
