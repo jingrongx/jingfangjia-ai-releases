@@ -1,8 +1,8 @@
 {
-  "version": "1.8.47",
-  "note": "新增离线音色试听：设置-语音播报中可试听 8 个候选离线音色的真实合成样例（轻量快速的华燕、清晰的凡尘、多说话人 AISHELL3、音质最佳的 Kokoro），听完告诉开发者即可切换接入",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.47/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.47/JingFangJia-AI-v1.8.47.apk",
+  "version": "1.8.48",
+  "note": "离线语音全面升级：默认音色更换为你选定的华燕（Piper），洪亮清晰更亲切；模型从 163MB 减到 63MB，下载更小、合成更快，朗读段间停顿大幅缩短；安装后需在设置中重新下载一次语音模型（旧的会自动清理）",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.48/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.48/JingFangJia-AI-v1.8.48.apk",
   "rollout": 100,
-  "minNative": "1.8.45"
+  "minNative": "1.8.48"
 }
