@@ -1,8 +1,8 @@
 {
-  "version": "1.8.49",
-  "note": "语音朗读节奏优化：华燕音色整体放慢 15%，断句停顿更自然、声调更清晰；标点断句增强（顿号/冒号/分号停顿更明显）",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.49/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.49/JingFangJia-AI-v1.8.49.apk",
+  "version": "1.8.51",
+  "note": "语音引擎升级为双模型架构：新增高品质音色 Kokoro 晓晓（韵律自然、声调准确、情感丰富，实测标点停顿完整），设置中可随时切换；保留凡尘-C（速度快）。按需下载，切换即时生效",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.51/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.51/JingFangJia-AI-v1.8.51.apk",
   "rollout": 100,
-  "minNative": "1.8.48"
+  "minNative": "1.8.51"
 }
