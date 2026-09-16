@@ -1,8 +1,8 @@
 {
-  "version": "1.8.51",
-  "note": "语音引擎升级为双模型架构：新增高品质音色 Kokoro 晓晓（韵律自然、声调准确、情感丰富，实测标点停顿完整），设置中可随时切换；保留凡尘-C（速度快）。按需下载，切换即时生效",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.51/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.51/JingFangJia-AI-v1.8.51.apk",
+  "version": "1.8.54",
+  "note": "朗读引擎按平台固定：手机=离线大模型，网页=系统TTS（微软已封禁免费 Edge TTS 云端通道）",
+  "url": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.54/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.52/JingFangJia-AI-v1.8.52.apk",
   "rollout": 100,
-  "minNative": "1.8.51"
+  "minNative": "1.8.52"
 }
