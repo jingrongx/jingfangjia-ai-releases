@@ -1,8 +1,8 @@
 {
-  "version": "1.8.54",
-  "note": "朗读引擎按平台固定：手机=离线大模型，网页=系统TTS（微软已封禁免费 Edge TTS 云端通道）",
-  "url": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.54/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.52/JingFangJia-AI-v1.8.52.apk",
+  "version": "1.8.69",
+  "note": "修复 APK 内部版本号与发布版本不一致的问题",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.69/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.69/JingFangJia-AI-v1.8.69.apk",
   "rollout": 100,
-  "minNative": "1.8.52"
+  "minNative": "1.8.69"
 }
