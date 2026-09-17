@@ -1,8 +1,8 @@
 {
-  "version": "1.8.70",
-  "note": "修复云端云希失败的问题；离线语音新增晴岚/若溪/云舟/景澈音色切换与试听，默认语速提升",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.70/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.70/JingFangJia-AI-v1.8.70.apk",
+  "version": "1.8.71",
+  "note": "朗读卡顿优化：首句更快出声、段落衔接更顺；离线语音精简为云舟男声（其余音色效果不佳已下线）",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.71/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.71/JingFangJia-AI-v1.8.71.apk",
   "rollout": 100,
-  "minNative": "1.8.70"
+  "minNative": "1.8.71"
 }
