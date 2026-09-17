@@ -1,8 +1,8 @@
 {
-  "version": "1.8.71",
-  "note": "朗读卡顿优化：首句更快出声、段落衔接更顺；离线语音精简为云舟男声（其余音色效果不佳已下线）",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.71/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.71/JingFangJia-AI-v1.8.71.apk",
+  "version": "1.8.72",
+  "note": "修复朗读斜杠问题（读成停顿不再读斜杠）；云端长文朗读更稳（不再中途停止）；离线朗读响应更快",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.72/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.72/JingFangJia-AI-v1.8.72.apk",
   "rollout": 100,
-  "minNative": "1.8.71"
+  "minNative": "1.8.72"
 }
