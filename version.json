@@ -1,8 +1,8 @@
 {
-  "version": "1.8.73",
-  "note": "云端朗读升级为真流式：边合成边播，长文不再有段间等待；离线模型升级 int8 提速版（需在设置中重新下载语音模型，约140MB）",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.73/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.73/JingFangJia-AI-v1.8.73.apk",
+  "version": "1.8.74",
+  "note": "家人档案智能升级：对话中提及的体重、病史、过敏、体质、生活习惯等信息将自动更新到档案（无需手填）；基础备注（病史/手术史）已纳入辨证参考",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.74/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.74/JingFangJia-AI-v1.8.74.apk",
   "rollout": 100,
-  "minNative": "1.8.73"
+  "minNative": "1.8.74"
 }
