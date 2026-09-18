@@ -1,8 +1,8 @@
 {
-  "version": "1.8.75",
-  "note": "时效性升级：长程对话的每次发言均按真实时间归档，辨证摘要记录当时节气/天气，档案更新按发言时间归因不混淆",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.75/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.75/JingFangJia-AI-v1.8.75.apk",
+  "version": "1.8.76",
+  "note": "消息卡片显示发言时间戳：当天消息显时分，历史消息带日期，长程对话时间一目了然",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.76/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.76/JingFangJia-AI-v1.8.76.apk",
   "rollout": 100,
-  "minNative": "1.8.75"
+  "minNative": "1.8.76"
 }
