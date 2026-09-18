@@ -1,8 +1,8 @@
 {
-  "version": "1.8.74",
-  "note": "家人档案智能升级：对话中提及的体重、病史、过敏、体质、生活习惯等信息将自动更新到档案（无需手填）；基础备注（病史/手术史）已纳入辨证参考",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.74/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.74/JingFangJia-AI-v1.8.74.apk",
+  "version": "1.8.75",
+  "note": "时效性升级：长程对话的每次发言均按真实时间归档，辨证摘要记录当时节气/天气，档案更新按发言时间归因不混淆",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.75/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.75/JingFangJia-AI-v1.8.75.apk",
   "rollout": 100,
-  "minNative": "1.8.74"
+  "minNative": "1.8.75"
 }
