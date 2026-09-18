@@ -1,8 +1,8 @@
 {
-  "version": "1.8.76",
-  "note": "消息卡片显示发言时间戳：当天消息显时分，历史消息带日期，长程对话时间一目了然",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.76/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.76/JingFangJia-AI-v1.8.76.apk",
+  "version": "1.8.77",
+  "note": "下载体验升级：自动检测网络择优下载线路（Gitee 直链优先，其次镜像加速，最后 GitHub），某条线路不可用时自动切换不再失败",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.77/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.77/JingFangJia-AI-v1.8.77.apk",
   "rollout": 100,
-  "minNative": "1.8.76"
+  "minNative": "1.8.77"
 }
