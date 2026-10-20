@@ -3,6 +3,5 @@
   "note": "内置《伤寒论》《金匮要略》《黄帝内经》《难经》《神农本草经》六部经典全文与辨证心法，辨证结论逐字引用条文出处，准确性大幅增强",
   "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.79/dist.zip",
   "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.79/JingFangJia-AI-v1.8.79.apk",
-  "rollout": 100,
-  "minNative": "1.8.79"
+  "rollout": 100
 }
