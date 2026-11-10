@@ -1,8 +1,7 @@
 {
-  "version": "1.8.82",
-  "note": "适配系统大字模式：锁定应用内文字比例，搜索框、输入区、按钮排版不再随系统字号变形；如需更大字体请用顶栏 −T+ 调节。本版含原生更新，需下载安装 APK 生效",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.82/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.82/JingFangJia-AI-v1.8.82.apk",
-  "rollout": 100,
-  "minNative": "1.8.82"
+  "version": "1.8.83",
+  "note": "数据同步新增国内加速线路（直连不稳时自动切换，无需任何操作）；修复导出功能的若干问题",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.83/dist.zip",
+  "apkUrl": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.83/JingFangJia-AI-v1.8.83.apk",
+  "rollout": 100
 }
