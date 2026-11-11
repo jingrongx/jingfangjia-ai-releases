@@ -14,14 +14,14 @@
     ],
         "apkUrlTemplate": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v{version}/JingFangJia-AI-v{version}.apk",
         "canaryApkUrlTemplate": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v{version}/JingFangJia-AI-canary-v{version}.apk",
-    "mirrorPrefix": "https://ghproxy.net/",
-    "releasesPage": {
-      "cn": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases",
-      "global": "https://github.com/jingrongx/jingfangjia-ai-releases/releases"
+        "mirrorPrefix": "https://ghproxy.net/",
+        "releasesPage": {
+            "cn": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases",
+            "global": "https://github.com/jingrongx/jingfangjia-ai-releases/releases"
+        }
+    },
+    "supabaseProxy": {
+        "url": "https://jingfangjia.chat/supabase",
+        "enabled": true
     }
-  },
-  "supabaseProxy": {
-    "url": "https://jingfangjia.chat/supabase",
-    "enabled": true
-  }
 }
