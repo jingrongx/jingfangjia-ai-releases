@@ -1,7 +1,7 @@
 {
-  "version": "1.8.84",
-  "note": "修复部分网络下登录验证卡住的问题：国内加速线路随包内置、启动即生效，无需任何设置；网络诊断中 Supabase 项改为显示实际使用线路",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.84/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.84/JingFangJia-AI-v1.8.84.apk",
+  "version": "1.8.85",
+  "note": "修复 Logo/二维码等图片加载失败（改走国内加速线路）；系统设置新增网络检测，可手动检测各服务连通性",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.85/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.85/JingFangJia-AI-v1.8.85.apk",
   "rollout": 100
 }
