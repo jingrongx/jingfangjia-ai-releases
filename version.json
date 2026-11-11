@@ -1,7 +1,8 @@
 {
-  "version": "1.8.85",
-  "note": "修复 Logo/二维码等图片加载失败（改走国内加速线路）；系统设置新增网络检测，可手动检测各服务连通性",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.85/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.85/JingFangJia-AI-v1.8.85.apk",
-  "rollout": 100
+  "version": "1.8.86",
+  "note": "修复安卓顶栏与状态栏重叠（需更新到本版本）；修复点隐私政策后回到启动页的问题；网络异常时明确提示加载失败并可重试，不再误显示为暂无记录。本版本含原生改动，请通过整包 APK 更新",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.86/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.86/JingFangJia-AI-v1.8.86.apk",
+  "rollout": 100,
+  "minNative": "1.8.86"
 }
