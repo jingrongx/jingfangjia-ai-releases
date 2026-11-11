@@ -1,7 +1,7 @@
 {
-  "version": "1.8.83",
-  "note": "数据同步新增国内加速线路（直连不稳时自动切换，无需任何操作）；修复导出功能的若干问题",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.83/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.83/JingFangJia-AI-v1.8.83.apk",
+  "version": "1.8.84",
+  "note": "",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.84/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.84/JingFangJia-AI-v1.8.84.apk",
   "rollout": 100
 }
