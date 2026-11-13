@@ -1,6 +1,6 @@
 {
   "version": "1.8.88",
-  "note": "fix(android): WindowMetrics 包名修正（android.view 而非 android.window，v1.8.88 CI 编译失败根因）",
+  "note": "🔧 本版修复（v1.8.88）：\n1. 彻底修复顶栏按钮与手机状态栏重叠、底部提示文字被手势条遮挡（改为原生三层确定性避让）\n2. 修复麦克风已授权但语音输入仍提示无权限的问题（补音频采集必需权限+授权流程自动重试）\n3. 输入框占位文字在手机上不再折成两行（新增图标后自动适配）\n提示：本版含原生改动，请下载完整 APK 升级",
   "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.88/dist.zip",
   "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.88/JingFangJia-AI-v1.8.88.apk",
   "rollout": 100,
