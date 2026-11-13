@@ -1,6 +1,6 @@
 {
   "version": "1.8.87",
-  "note": "",
+  "note": "🎉 本版新功能（DeepSeek 全家桶 API）：\n1. 联网搜索：输入栏一键开启，回答自动附权威来源链接\n2. 文档云端解析：PDF/Word 上限 20MB、支持千页、保留图表版面（化验单识别更准）\n3. 语音输入：点麦克风说话自动转文字\n4. 内容安全校验全量开启\n🔧 体验优化：\n5. 图片缩略图+点击全屏查看；云端只存压缩缩略图（约10KB/张），原图仅存本机保护隐私\n6. 修复部分机型顶栏按钮与手机状态栏重叠\n7. 刚打开 App 网络未就绪时自动重试同步，失败后在会话列表内一键重试（不再弹横幅）\n8. 长会话自动瘦身，多轮追问更稳定",
   "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.87/dist.zip",
   "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.87/JingFangJia-AI-v1.8.87.apk",
   "rollout": 100,
