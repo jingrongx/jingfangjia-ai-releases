@@ -1,8 +1,7 @@
 {
-  "version": "1.8.91",
-  "note": "🎨 界面与语音体验修复（v1.8.91）：\n1. 消除顶/底部大段空白：修复系统栏双层避让（原生 margin 已避让后网页又叠了一层安全区 padding）\n2. 输入栏瘦身：去掉重复话筒，仅保留右侧按住说话，手机端隐藏附件限制提示行\n3. 录音浮层修复：不再溢出屏幕（portal 渲染到根节点）并整体缩小，居中显示\n4. 录音防卡死：系统抢走触摸、网络挂起、首次授权期间快速松手等情况下浮层自动收起（touchcancel 兜底 + 30s 请求超时 + 竞态防护）\n5. 语音识别质量提升：改用设备原生采样率采集后精确降采样 16k，修复丢字/识别不到；松手补录 350ms 尾部，最后一句话不再被截断\n提示：本版含原生改动，请下载完整 APK 升级",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.91/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.91/JingFangJia-AI-v1.8.91.apk",
-  "rollout": 100,
-  "minNative": "1.8.91"
+  "version": "1.8.92",
+  "note": "🚑 紧急修复（v1.8.92）：\n1. 修复会话页顶部显示一段 CSS 代码文本的问题（v1.8.91 误把样式块提前截断，后半段样式被当成正文渲染，并导致基础布局样式失效）\n2. 语音采集管线彻底重写：改用浏览器原生 MediaRecorder 硬件采集（此前 ScriptProcessor 在音频线程被渲染挤占会丢帧，即丢字元凶），停止后精确重采样 16k WAV 上传\n3. 按 DeepSeek ASR 文档核对契约（WAV 16bit 单声道 8k~48k 或 Ogg Opus、≤8MiB/120s），429/503/504 自动重试一次\n4. 本版为纯网页热更新，安装 v1.8.91 APK 后重启应用自动生效，无需重新下载安装包",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.92/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.92/JingFangJia-AI-v1.8.92.apk",
+  "rollout": 100
 }
