@@ -3,5 +3,6 @@
   "note": "🚑 紧急修复（v1.8.92）：\n1. 修复会话页顶部显示一段 CSS 代码文本的问题（v1.8.91 误把样式块提前截断，后半段样式被当成正文渲染，并导致基础布局样式失效）\n2. 语音采集管线彻底重写：改用浏览器原生 MediaRecorder 硬件采集（此前 ScriptProcessor 在音频线程被渲染挤占会丢帧，即丢字元凶），停止后精确重采样 16k WAV 上传\n3. 按 DeepSeek ASR 文档核对契约（WAV 16bit 单声道 8k~48k 或 Ogg Opus、≤8MiB/120s），429/503/504 自动重试一次\n4. 本版为纯网页热更新，安装 v1.8.91 APK 后重启应用自动生效，无需重新下载安装包",
   "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.92/dist.zip",
   "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.92/JingFangJia-AI-v1.8.92.apk",
-  "rollout": 100
+  "rollout": 100,
+  "minNative": "1.8.91"
 }
