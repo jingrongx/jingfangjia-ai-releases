@@ -1,8 +1,8 @@
 {
-  "version": "1.8.88",
-  "note": "🔧 本版修复（v1.8.88）：\n1. 彻底修复顶栏按钮与手机状态栏重叠、底部提示文字被手势条遮挡（改为原生三层确定性避让）\n2. 修复麦克风已授权但语音输入仍提示无权限的问题（补音频采集必需权限+授权流程自动重试）\n3. 输入框占位文字在手机上不再折成两行（新增图标后自动适配）\n提示：本版含原生改动，请下载完整 APK 升级",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.88/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.88/JingFangJia-AI-v1.8.88.apk",
+  "version": "1.8.89",
+  "note": "🔧 本版核心修复与升级（v1.8.89）：\n1. 彻底解决顶底重叠：原生物理限制与CSS安全区双重避让，状态栏与手势条不再遮挡界面与按钮\n2. 语音输入交互重构：新增大按钮“按住说话”模式，药香水墨波纹与实时声波动效，上滑取消、松开识别；修复麦克风录音后无文字的问题\n3. 配置持久化与防重置：修复网络抖动时误将用户档案覆盖为默认配置的致命Bug，建立本地与云端双向持久化，API Key 永不丢失\n4. EdgeOne 代理完善：补充 CORS OPTIONS 预检拦截与响应头补全，优化重试冷却机制\n5. 全局弹窗安全区适配：设置、关于、问诊准备、导出等全部模态窗适配避让系统栏\n提示：本版含原生改动，请下载完整 APK 升级",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.89/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.89/JingFangJia-AI-v1.8.89.apk",
   "rollout": 100,
-  "minNative": "1.8.88"
+  "minNative": "1.8.89"
 }
