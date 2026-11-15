@@ -1,7 +1,7 @@
 {
-  "version": "1.8.94",
-  "note": "🚀 DeepSeek 官方全家桶深度集成（v1.8.94）：\n1. 新增 DeepSeek 官方语音合成引擎：设置中可切换官方音色“海星”（女声）与“暗潮”（男声），合成失败自动降级离线/系统语音，长文朗读分块续播不断流\n2. 会话标题智能升级：DeepSeek 服务端伴随生成精准辨证主题（零额外请求、零计费），自动保留患者人名前缀，如“张三 · 柴胡汤证与胃脘痛辨证”\n3. 接入官方 latest_reminder 时空元信息：模型感知当前日期、星期、地点与平台，辨证建议更贴合时令节气\n4. 联网搜索全程可视化：实时展示检索关键词标签与检索步数，参考来源升级为双列卡片（站点图标、摘要与发布时间），搜索过程一目了然\n5. 多轮对话搜索记忆：服务端搜索步骤与已阅读网页落库保留，追问时原样回传，连续问诊无需重复检索\n6. 会话管理增强：医案导出新增 JSON 格式（DeepSeek 兼容结构），侧边栏支持导入历史会话\n7. 本版为纯网页热更新，重启应用自动生效",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.94/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.94/JingFangJia-AI-v1.8.94.apk",
+  "version": "1.8.95",
+  "note": "🚑 紧急修复（v1.8.95）：\n1. 修复点击 DeepSeek 语音引擎卡片白屏报错（Sparkles 图标漏导入）\n2. 修复 DeepSeek 对话发送消息报错（latest_reminder 注入处上下文引用错误，v1.8.94 引入）\n3. 修复后 DeepSeek 官方音色选择恢复可见：海星（女声）/ 暗潮（男声），选中 DeepSeek 引擎即在下方切换\n4. 侧边栏底部全面精简：导入记录、系统设置、关于合并为一行三列，隐私政策与格言合并一行，App 内不再显示下载安卓 App 按钮，会话列表空间显著增加\n5. 构建流程新增 TypeScript 全量类型检查，杜绝同类漏网\n6. 本版为纯网页热更新，重启应用自动生效",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.95/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.95/JingFangJia-AI-v1.8.95.apk",
   "rollout": 100
 }
