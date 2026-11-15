@@ -1,7 +1,7 @@
 {
-  "version": "1.8.95",
-  "note": "🚑 紧急修复（v1.8.95）：\n1. 修复点击 DeepSeek 语音引擎卡片白屏报错（Sparkles 图标漏导入）\n2. 修复 DeepSeek 对话发送消息报错（latest_reminder 注入处上下文引用错误，v1.8.94 引入）\n3. 修复后 DeepSeek 官方音色选择恢复可见：海星（女声）/ 暗潮（男声），选中 DeepSeek 引擎即在下方切换\n4. 侧边栏底部全面精简：导入记录、系统设置、关于合并为一行三列，隐私政策与格言合并一行，App 内不再显示下载安卓 App 按钮，会话列表空间显著增加\n5. 构建流程新增 TypeScript 全量类型检查，杜绝同类漏网\n6. 本版为纯网页热更新，重启应用自动生效",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.95/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.95/JingFangJia-AI-v1.8.95.apk",
+  "version": "1.8.96",
+  "note": "🖼️ 鸿蒙兼容 + 播报修复（v1.8.96）：\n1. 修复鸿蒙系统相机 HEIC 高效格式照片无法选为附件的问题：选择器放开 HEIC/HEIF，选中后自动解码转码为 JPEG 上传\n2. 图片解码增加系统解码器兜底通道（createImageBitmap），解码仍失败的会给出关闭相机「高效照片格式」的明确引导\n3. 发送端统一转码增强：模型不支持的图片格式发送前自动重编为 JPEG，无需手动转换\n4. 修复开启自动朗读回复后不自动播报的问题（v1.8.94 会话标题重构时该逻辑被提前 return 挡住未执行）\n5. 顺带修复同位置被挡死的辨证摘要与患者长期记忆增量更新逻辑\n6. 本版为纯网页热更新，重启应用自动生效",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.96/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.96/JingFangJia-AI-v1.8.96.apk",
   "rollout": 100
 }
