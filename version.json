@@ -1,7 +1,7 @@
 {
-  "version": "1.8.96",
-  "note": "🖼️ 鸿蒙兼容 + 播报修复（v1.8.96）：\n1. 修复鸿蒙系统相机 HEIC 高效格式照片无法选为附件的问题：选择器放开 HEIC/HEIF，选中后自动解码转码为 JPEG 上传\n2. 图片解码增加系统解码器兜底通道（createImageBitmap），解码仍失败的会给出关闭相机「高效照片格式」的明确引导\n3. 发送端统一转码增强：模型不支持的图片格式发送前自动重编为 JPEG，无需手动转换\n4. 修复开启自动朗读回复后不自动播报的问题（v1.8.94 会话标题重构时该逻辑被提前 return 挡住未执行）\n5. 顺带修复同位置被挡死的辨证摘要与患者长期记忆增量更新逻辑\n6. 本版为纯网页热更新，重启应用自动生效",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.96/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.96/JingFangJia-AI-v1.8.96.apk",
+  "version": "1.8.97",
+  "note": "🚑 紧急修复（v1.8.97）：\n1. 修复点击重新生成/重试时偶发报 400「an assistant message must follow a user message」的错误：彻底修复 handleRegenerate 历史截断闭包缺陷\n2. 增加对话历史严格交替清洗机制：模型请求前自动剔除报错气泡、剔除开头孤立 assistant、合并相邻同角色消息，确保上下文严格交替\n3. 修复网络断流自动续传时，若正文尚未开始输出（仅思考阶段中断）会导致空回复占位并破坏上下文结构的问题\n4. 本版为纯网页热更新，重启应用自动生效",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.8.97/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.8.97/JingFangJia-AI-v1.8.97.apk",
   "rollout": 100
 }
