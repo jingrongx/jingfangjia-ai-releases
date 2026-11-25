@@ -1,8 +1,8 @@
 {
-  "version": "1.9.07",
-  "note": "🚑 紧急修复（v1.9.07）：\n1. 修复打开「导出与一页纸健康调理摘要」弹窗时触发 React Error #310（Hook 调用顺序异常）导致页面白屏的问题：将  中的自动增量汇总  上移至条件  之前，确保弹窗打开/关闭与切换范围时 Hook 声明顺序严格一致\n2. 全量排查摘要栏、气泡、导出卡片及主页面全部组件，确认无其它条件分支 Hook 调用隐患\n3. 本版为纯网页热更新修复，网页端刷新即生效；1.9.01+ 安装包用户重启自动热更新（minNative: 1.9.01）",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.07/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.07/JingFangJia-AI-v1.9.07.apk",
+  "version": "1.9.08",
+  "note": "✨ 优化与修复「一页纸健康调理摘要」范围隔离与区分度（v1.9.08）：\n1. 彻底隔离「仅当前会话」与「全部历史」数据通道：整理单次当前会话滚动摘要时不再注入既往有效方剂、历史备注、历次化验时间轴及全历史病历底稿，确保「仅当前会话」只体现本次对话内部的多轮过程、汤剂与中成药方案，绝不串入过往其他会话内容\n2. 强化「全部历史」跨期档案总账样式：突出跨日期历次病程时间表、已验证有效与无效/不适避坑的方证红黑榜、跨期检验变化与长期体质总纲，与单次会话详细执行卡形成明确互补分工\n3. 版本迁移自动净化（v2）：打开此前已生成但可能混入历史内容的旧版摘要时，自动按新规范一次性重整并落库，后续继续零词元直取数据库\n4. 本版为纯网页热更新，网页端刷新即生效；1.9.01+ 安装包用户重启自动热更新（minNative: 1.9.01）",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.08/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.08/JingFangJia-AI-v1.9.08.apk",
   "rollout": 100,
   "minNative": "1.9.01"
 }
