@@ -1,8 +1,8 @@
 {
-  "version": "1.9.06",
-  "note": "✨ 升级「一页纸健康调理摘要」为基于当前时间的真实病历与全端表格渲染（v1.9.06）：\n1. 个人全历史病历直接由档案记忆生成并持久化入库：立足系统已沉淀的方证对应、疗效反馈、药后反应、历次日期与检查检验时间轴，直接用通顺易懂的话排版生成个人一页纸总病历并写入数据库；档案与对话未产生新变化时零词元开销直取缓存，避免重复回溯旧聊天原文\n2. 当前会话实时增量与超长内容分批整合：每轮回复后结合每条消息时间戳与当前基准时间增量更新滚动摘要（仅传前置摘要+新增片段），超长历史或记录自动按预算分批融合，并完整保留全部煎煮汤剂与中成药方案\n3. 当前会话 / 全部历史双范围切换与独立分享：桌面端右侧摘要栏与导出弹窗均支持切换「当前会话 / 全部历史」，支持一键生成长图、打印/PDF、下载 .md/.txt/.json 或复制对应范围摘要\n4. 全面修复 Markdown 表格渲染与防截断：气泡正文、摘要面板、打印 PDF 与生成长图均支持标准 GFM 表格框线与横向滚动，自动修正表格前缺空行与中成药提取遗漏问题\n5. 网页端刷新即生效，1.9.01+ 安装包用户可直接热更新；更早版本请按提示升级 APK（minNative: 1.9.01）",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.06/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.06/JingFangJia-AI-v1.9.06.apk",
+  "version": "1.9.07",
+  "note": "🚑 紧急修复（v1.9.07）：\n1. 修复打开「导出与一页纸健康调理摘要」弹窗时触发 React Error #310（Hook 调用顺序异常）导致页面白屏的问题：将  中的自动增量汇总  上移至条件  之前，确保弹窗打开/关闭与切换范围时 Hook 声明顺序严格一致\n2. 全量排查摘要栏、气泡、导出卡片及主页面全部组件，确认无其它条件分支 Hook 调用隐患\n3. 本版为纯网页热更新修复，网页端刷新即生效；1.9.01+ 安装包用户重启自动热更新（minNative: 1.9.01）",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.07/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.07/JingFangJia-AI-v1.9.07.apk",
   "rollout": 100,
   "minNative": "1.9.01"
 }
