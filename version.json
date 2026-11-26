@@ -1,8 +1,7 @@
 {
-  "version": "1.9.09",
-  "note": "✨ 移动端体验与档案反馈全面优化（v1.9.09）：\n1. 修复会话消息下方疗效反馈与用后反应显示与同步：兼容简洁模式与无加粗标题的处方/辨证输出，自动兜底生成摘要并实时双向同步至「方证对应 · 有效经验方」与避坑记录\n2. 新增手机端右侧滑入「一页纸与分享」侧边栏：在手机/平板界面左滑或点击右上角分享入口，即可从右侧平滑拉出一页纸健康调理摘要与快捷分享面板（摘要图/PDF、智慧长图、完整记录导出、复制分享）\n3. 适配一页纸摘要图至手机屏幕尺寸：移动端生成摘要图自动按手机宽度（360–430px）双倍高清排版，字体与表格清晰适读\n4. 修复成员健康档案排版问题：优化「方证对应 · 有效经验方」、无效记录与历次摘要卡片在手机窄屏下的换行与对齐，消除证型被日期挤成竖排及标题孤字折行\n5. 本版为纯网页热更新，网页端刷新即生效；1.9.01+ 安装包用户重启自动热更新（minNative: 1.9.01）",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.09/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.09/JingFangJia-AI-v1.9.09.apk",
-  "rollout": 100,
-  "minNative": "1.9.01"
+  "version": "1.9.10",
+  "note": "- 底部输入区桌面端合并为一卡两行：拍舌象/药盒排雷/读化验单并入工具行，附件限制说明改为悬浮提示，纵向占用大幅缩减\n- 左侧栏压缩：体验模式累计次数并入账号卡，成员档案入口合并为底部常驻卡（无档案时引导选择创建），安卓App下载并入页脚一行，会话列表空间显著增大\n- 右侧一页纸摘要栏正文从11px提升至14px（手机13px），栏宽加宽至360px，栏头新增Aa字号调节滑条（12-20px，选择云端记忆）",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.10/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.10/JingFangJia-AI-v1.9.10.apk",
+  "rollout": 100
 }
