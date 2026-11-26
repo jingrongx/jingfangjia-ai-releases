@@ -1,7 +1,8 @@
 {
-  "version": "1.9.11",
-  "note": "- 手机端拍舌象/药盒排雷/读化验单展开后从「引导横幅+操作条」两行合并为单行操作条，完整引导降级为悬浮提示，输入区不再撑高\n- 修复工具行横滑区域露出灰色滚动条（scrollbar-none 落地为真实样式）\n- 全站样式从 cdn.tailwindcss.com 运行时 JIT 迁移为构建期编译：弱网/无外网环境（手机浏览器、App WebView）不再裸样式，首屏显著提速\n- 主题色板与字体栈逐字保留，界面视觉零变化",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.11/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.11/JingFangJia-AI-v1.9.11.apk",
-  "rollout": 100
+  "version": "1.9.12",
+  "note": "- 拍舌象/药盒排雷/读化验单三个按钮从输入工具行撤除，统一收进「附件」弹层菜单（含从相册/文件上传），手机与桌面工具行只留症状库、附件、联网与语音发送，不再出现截断与拥挤\n- 弹层菜单单列大触达面积，选中场景后弹出单行操作条（拍照/相册），点外部或按 Esc 收起\n- 仅前端交互调整，主题与样式不变",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.12/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.12/JingFangJia-AI-v1.9.12.apk",
+  "rollout": 100,
+  "minNative": "1.9.01"
 }
