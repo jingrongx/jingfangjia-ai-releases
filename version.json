@@ -1,7 +1,7 @@
 {
-  "version": "1.9.10",
-  "note": "- 底部输入区桌面端合并为一卡两行：拍舌象/药盒排雷/读化验单并入工具行，附件限制说明改为悬浮提示，纵向占用大幅缩减\n- 左侧栏压缩：体验模式累计次数并入账号卡，成员档案入口合并为底部常驻卡（无档案时引导选择创建），安卓App下载并入页脚一行，会话列表空间显著增大\n- 右侧一页纸摘要栏正文从11px提升至14px（手机13px），栏宽加宽至360px，栏头新增Aa字号调节滑条（12-20px，选择云端记忆）",
-  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.10/dist.zip",
-  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.10/JingFangJia-AI-v1.9.10.apk",
+  "version": "1.9.11",
+  "note": "- 手机端拍舌象/药盒排雷/读化验单展开后从「引导横幅+操作条」两行合并为单行操作条，完整引导降级为悬浮提示，输入区不再撑高\n- 修复工具行横滑区域露出灰色滚动条（scrollbar-none 落地为真实样式）\n- 全站样式从 cdn.tailwindcss.com 运行时 JIT 迁移为构建期编译：弱网/无外网环境（手机浏览器、App WebView）不再裸样式，首屏显著提速\n- 主题色板与字体栈逐字保留，界面视觉零变化",
+  "url": "https://github.com/jingrongx/jingfangjia-ai-releases/releases/download/v1.9.11/dist.zip",
+  "apkUrl": "https://gitee.com/xujingrong/jingfangjia-ai-releases/releases/download/v1.9.11/JingFangJia-AI-v1.9.11.apk",
   "rollout": 100
 }
